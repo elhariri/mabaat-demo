@@ -45,16 +45,10 @@ export default function Home() {
   return (
     <main
       style={tajawal.style}
-      className="flex bg-[#346765] relative min-h-screen flex-col"
+      className="flex bg-white text-black relative min-h-screen flex-col"
     >
-      <div
-        style={{
-          background: "radial-gradient(rgb(18 104 89), #084d42)",
-          filter: "blur(8px)",
-        }}
-        className="absolute w-full h-full inset-0"
-      ></div>
-      <div className="relative flex py-4 mx-5 text-white">
+
+      <div className="relative flex py-4 mx-5">
         <div className="flex mr-auto my-auto rounded-full px-2 py-0.5 border border-[#cedfc3]">
           <span style={tajawal.style} className="my-auto h-fit mr-2 mt-1">
             AR
@@ -83,7 +77,7 @@ export default function Home() {
       <div className="mx-5 relative p-4 py-8 rounded-3xl mt-36" >
         <div
           style={almarai.style}
-          className="z-50 text-[2.2rem] text-[#ffd863] leading-[1.3] text-center mb-12"
+          className="z-50 text-[2.2rem] leading-[1.3] text-center mb-12"
         >
           افضل و أرقى الوحدات السعودية مهيئة لراحتك
         </div>

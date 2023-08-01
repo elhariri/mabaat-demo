@@ -53,6 +53,7 @@ export default function Home() {
         }}
         className="absolute w-full h-full inset-0"
       ></div>
+
       <div className="flex mx-auto mt-48">
         <div className="relative w-24 h-24">
           {/*   <div className="absolute z-0 w-36 h-36 border border-orange-500/50 rounded-full -left-[30%] -top-[30%]" />
